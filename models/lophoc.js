@@ -5,4 +5,7 @@ var lophoc = function () {
     this.LayDanhSachSinhVien = function () {
         return this.danhSachSinhVien;
     }
+    this.timKiemSinhVien = function (maSVK) {
+        console.log('da tim thay sinh vien');
+    }
 }
